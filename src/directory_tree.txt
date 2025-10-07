@@ -1,0 +1,21 @@
+src/
+├── App.css
+├── App.tsx
+├── assets/
+├── componets/
+│   ├── Header.tsx
+│   └── pages/
+│       ├── About.tsx
+│       ├── Dashboard.tsx
+│       ├── Home.tsx
+│       ├── PageNotFound.tsx
+│       ├── ServiceDetailed.tsx
+│       └── TimerComponent.tsx
+├── directory_tree.txt
+├── index.css
+├── layouts/
+│   └── DefaultLayout.tsx
+├── main.tsx
+├── routs/
+│   └── AppRouts.tsx
+└── vite-env.d.ts

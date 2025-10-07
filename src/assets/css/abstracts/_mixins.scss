@@ -1,0 +1,16 @@
+@use 'sass:color';
+@use 'variables' as *; // imports all variables from _variables.scss
+
+@mixin btn($color) {
+  background: map-get($colors, $color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: color.adjust(map-get($colors, $color), $lightness: -10%);
+  }
+}

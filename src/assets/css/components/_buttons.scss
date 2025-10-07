@@ -1,0 +1,6 @@
+@use '../abstracts/mixins' as *;
+
+.btn {
+  &-primary { @include btn(primary); }
+  &-danger { @include btn(danger); }
+}

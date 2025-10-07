@@ -1,0 +1,20 @@
+@use 'sass:color';
+
+@mixin button-style($bg-color, $py: 5px, $px: 10px) {
+  background: $bg-color;
+  padding: $py $px;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  &:hover{
+    background-color: color.adjust($bg-color, $lightness: -10%);
+  }
+}
+
+.button_primary{
+  @include button-style(hsl(30, 50%, 20%), 10px, 30px);
+}
+.button_secondary{
+  @include button-style(hsl(160, 50%, 60%));
+}
