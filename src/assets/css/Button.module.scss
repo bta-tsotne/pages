@@ -12,7 +12,7 @@
   }
 }
 
-.button_primary{
+.button_golden{
   @include button-style(hsl(30, 50%, 20%), 10px, 30px);
 }
 .button_secondary{

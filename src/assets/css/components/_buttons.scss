@@ -1,6 +1,6 @@
 @use '../abstracts/mixins' as *;
 
 .btn {
-  &-primary { @include btn(primary); }
+  &-golden { @include btn(golden); }
   &-danger { @include btn(danger); }
 }
