@@ -28,7 +28,7 @@ export default function Header() {
             <Link to="/contact">Contact</Link>
           </nav>
           <button
-            className="btn btn-primary"
+            className="btn btn-golden"
             onClick={() => handleNavigate("dashboard")}
           >
             შესვლა
